@@ -1,0 +1,121 @@
+Project Name,bdjobs.com,,,,,,,,,,,,
+Module Name,Create Account,,,,,,,,,,,,
+Created By,Afsana Ahmed Ema,,,,,,,,,,,,
+Creation Date,05/07/24,,,,,,,,,,,,
+Reviewed By,Mohoshi vai,,,,,,,,,,,,
+Reviewed Date,12/07/24,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Test Case ID,Test section/Path,Test Case Description,Pre Conditions,Test Steps,Test Data,Expected Result,Post Conditions,Actual Result,Status,Executed By,Executed Date,Comments(if any),ScreenShot
+TS_BJ_01,Name Field,"Verify the name field 
+accepts valid names.","User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter ""Tithi Das"" in the Name field.
+3. Click ""Create account"" button",Tithi Das,"The form is accepted, and the 
+user moves to the next step.","User is on the next step of 
+the account creation process",(after test),Pass,Ema,7/724,(AFTER TEST),(AFTER TEST)
+TS_BJ_02,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter ""*%^DYS"" in the Name field.
+3.Click ""Create account"" button",*%^DYS,"""please enter valid name""","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,7/725,(AFTER TEST),(AFTER TEST)
+TS_BJ_03,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter ""32465"" in the Name field.
+3.Click ""Create account"" button",32465,"""please enter valid name""","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,7/726,(AFTER TEST),(AFTER TEST)
+TS_BJ_04,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter ""   "" in the Name field.
+3.Click ""Create account"" button",null,"""Please enter your name""","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,7/727,(AFTER TEST),(AFTER TEST)
+TS_BJ_05,Email Field,"Verify the Email field 
+accepts valid email 
+addresses.","User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter in the Email field.                        
+3. Click ""Create account"" button                  ",example@example.com,"The form is accepted, and 
+the user moves to the next step.","User is on the next step of 
+the account creation process.",(after test),Pass,Ema,12/7/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_06,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter in the Email field.                        
+3. Click ""Create account"" button                  ",1234567890@domain.com,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/8/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_07,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter in the Email field.                        
+3. Click ""Create account"" button                  ",user@domain.one,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/9/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_08,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page. 
+2. Enter in the Email field.                        
+3. Click ""Create account"" button                  ",user.name+tag+sorting@example.com,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/10/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_09,Mobile Field,"Verify the Mobile field 
+accepts valid Bangladeshi 
+phone numbers.","User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter ""+8801712345678"" in the Mobile field.
+3. Click ""Create account"" button          ",8801712345678,"The form is accepted, and 
+the user moves to the next step.","User is on the next step of 
+the account creation process.",(after test),Pass,Ema,12/11/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_10,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter ""+8801712345678"" in the Mobile field.
+3. Click ""Create account"" button          ",1234567890,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/12/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_11,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter ""+8801712345678"" in the Mobile field.
+3. Click ""Create account"" button          ",17123456789,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/13/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_12,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter ""+8801712345678"" in the Mobile field.
+3. Click ""Create account"" button          ",171234567,"The form is not accepted, and 
+the user moves to the next step.","a pop up msg and remains 
+on the same page",(after test),Pass,Ema,12/14/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_13,Password Field,"Verify the Password field 
+accepts passwords with 8 
+to 12 characters.","User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter in the Password field.
+3.Click ""Create account"" button",jkudsfy216789%$&^,"The form is accepted, and the user moves to the next step.","User is on the next step of 
+the account creation process.",(after test),Pass,Ema,12/15/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_14,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter in the Password field.
+3.Click ""Create account"" button",111111111111,"""strong""",user is on the same page,(after test),Pass,Ema,12/16/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_15,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter in the Password field.
+3.Click ""Create account"" button",............,"""very weak""",user is on the same page,(after test),Pass,Ema,12/17/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_16,,,"User is on the 
+account creation 
+page.","1. Navigate to the account creation page.
+2. Enter in the Password field.
+3.Click ""Create account"" button",ccccccccccccc,"""weak""",user is on the same page,(after test),Pass,Ema,12/18/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_17,"Confirm password 
+field",Verify the Confirm Password field matches the Password field and accepts 8 to 12 characters.,User is on the account creation page.,Type the password,if same,account creation is successful. ,user is NOT on the same page. moves to the next page,(after test),Pass,Ema,12/19/24,(AFTER TEST),(AFTER TEST)
+TS_BJ_18,,,,Type the password,if not same,"cannot create account,",user is on the same page,(after test),Pass,Ema,12/20/24,(AFTER TEST),(AFTER TEST)
